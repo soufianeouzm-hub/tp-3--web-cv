@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Mon CV</title>
+ <link rel="stylesheet" href = "style.css">
+</style>
+</head>
+<body>
+<div class="cv">
+    <div class="left">
+        <img src="image.jpg" alt="Ma phto">
+        <h2>soufiane ouzm</h2>
+        <p>Email: soufianeouzm@gmail .com</p>
+        <p>Téléphone: 0717427637</p>
+    </div>
+    <div class="right">
+        <h3>Profil</h3>
+        <p>Étudiant en informatique motivé, à la recherche d’un stage pour développer ses compétences en programmation (HTML et CSS)</p>
+        <h3>Formation</h3>
+        <ul>
+            <li>2025 Baccalauréat en svt – Lycée boumalne dades </li>
+            <li>2026 - Étudiant en AI SRI en FPO - Faculté Polydisciplinaire de Ouarzazate</li>
+        </ul>
+
+        <h3>Compétences</h3>
+        <ul>
+            <li>HTML / CSS</li>
+            <li>Python</li>
+            <li>Logiciels : Word, Excel</li>
+            <li>Langues : Amazigh</li>
+            <li>Langues : Arabe, Français, Anglais</li>
+        </ul>
+        <h3>Expérience</h3>
+        <ul>
+        <li> Création d'un site web en HTML/CSS</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
