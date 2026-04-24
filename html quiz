@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Simple</title>
+</head>
+<body>
+
+<h1>Quiz</h1>
+<button onclick="lesQuize()">Commencer le Quiz</button>
+
+<script>
+function lesQuize(){
+    let QUESTIONS = [
+        ["Quelle est la capital du Maroc ?","rabat"],
+        ["combien de jours dans la semaine ?","7"],
+        ["Quelle la premiere lettre de l'alphabet ?","a"]
+    ];
+    
+    let x = 0;
+
+    for(let i = 0; i < QUESTIONS.length; i++){
+        let reponse = prompt(QUESTIONS[i][0]);
+
+        if(reponse && reponse.toLowerCase() === QUESTIONS[i][1]){
+            alert("Réponse juste");
+            x++;
+        } else {
+            alert("Réponse fausse");
+        }
+    }
+
+    alert("Score: " + x + "/" + QUESTIONS.length);
+}
+</script>
+
+</body>
+</html>
